@@ -25,7 +25,7 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -154,10 +154,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="12.827" y1="42.799" x2="76.708" y2="42.799" width="0.3048" layer="20"/>
-<wire x1="76.708" y1="42.799" x2="76.708" y2="-28.702" width="0.3048" layer="20"/>
-<wire x1="76.708" y1="-28.702" x2="12.827" y2="-28.702" width="0.3048" layer="20"/>
-<wire x1="12.827" y1="-28.702" x2="12.827" y2="42.799" width="0.3048" layer="20"/>
+<wire x1="15.367" y1="42.164" x2="74.549" y2="42.164" width="0.3048" layer="20"/>
+<wire x1="74.549" y1="42.164" x2="74.676" y2="-25.146" width="0.3048" layer="20"/>
+<wire x1="74.676" y1="-25.146" x2="15.621" y2="-25.019" width="0.3048" layer="20"/>
+<wire x1="15.621" y1="-25.019" x2="15.367" y2="42.164" width="0.3048" layer="20"/>
 </plain>
 <libraries>
 <library name="AVX_By_element14_Batch_1">
@@ -1123,6 +1123,25 @@ Min. trace width = 0.03mm</description>
 <wire x1="58.928" y1="-19.07863125" x2="56.423140625" y2="-23.41718125" width="0.001" layer="1"/>
 <wire x1="56.423140625" y1="-23.41718125" x2="61.432859375" y2="-23.41718125" width="0.001" layer="1"/>
 <wire x1="61.432859375" y1="-23.41718125" x2="58.928" y2="-19.07863125" width="0.001" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="MICRO" pad="30"/>
+<contactref element="PADS_2" pad="1"/>
+<wire x1="45.79" y1="24.4856" x2="45.79" y2="32.131" width="0.3048" layer="1"/>
+<wire x1="45.79" y1="32.131" x2="41.021" y2="32.131" width="0.3048" layer="1"/>
+<wire x1="41.021" y1="32.131" x2="41.021" y2="35.433" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$7">
+<via x="18.161" y="37.719" extent="1-16" drill="1.2" shape="octagon"/>
+</signal>
+<signal name="N$8">
+<via x="71.882" y="38.862" extent="1-16" drill="1.2" shape="octagon"/>
+</signal>
+<signal name="N$10">
+<via x="71.882" y="-22.098" extent="1-16" drill="1.2" shape="octagon"/>
+</signal>
+<signal name="N$11">
+<via x="36.195" y="-22.098" extent="1-16" drill="1.2" shape="octagon"/>
 </signal>
 </signals>
 <errors>

@@ -2317,6 +2317,15 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="132.08" y="-25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="MICRO" gate="1" pin="PD0(RXD/PCINT16)"/>
+<wire x1="71.12" y1="55.88" x2="165.1" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="55.88" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="PADS_2" gate="A" pin="1"/>
+<wire x1="165.1" y1="38.1" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
